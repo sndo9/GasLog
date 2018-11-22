@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Gas_Log_Inital</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="heading1">Mileage</string>
+    <string name="heading2">Gallons</string>
+    <string name="heading3">Total Price</string>
+    <string name="heading4">Gas Price</string>
+    <string name="heading5">Date</string>
+
+    <string name="entry_button">Add Entry</string>
+
+    <string name="popup_hint_one">Mileage</string>
+    <string name="popup_hint_two">Number of Gallons</string>
+    <string name="popup_hint_three">Gas Price</string>
+    <string name="popup_submit_button">Submit</string>
+</resources>

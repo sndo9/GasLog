@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/new_entry_popup"
+    android:layout_width="600dp"
+    android:layout_height="200dp"
+    android:background="@color/blue"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/popup_miles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:textSize="@dimen/table_entry_text_size"
+        android:hint="@string/popup_hint_one"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/popup_gallons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:textSize="@dimen/table_entry_text_size"
+        android:hint="@string/popup_hint_two"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/popup_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:textSize="@dimen/table_entry_text_size"
+        android:hint="@string/popup_hint_three"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/submit_entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/popup_submit_button" />
+</LinearLayout>
+
